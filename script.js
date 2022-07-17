@@ -1,3 +1,8 @@
+let rps = document.querySelector('.game')
+
+
+
+
 function computerPlay() {
     choices = ["Rock", "Paper", "Scissors"];
     return choices[Math.floor(Math.random() * choices.length)];
